@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/*Importing Font*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&display=swap');
+
+@font-face {
+    font-family: "Street";
+    src: url('../medias/fonts/Ponter.ttf') format('truetype');
+    font-size: 1em;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/*Paleta
+#5B0566
+#1E468B
+#471CA9
+#420257
+#2B0457
+*/
+
+body {
+    font-family: 'Street', sans-serif;
+    color: white;
+    background-image: linear-gradient(45deg, #120323 10%, #350141 90%, #300357);
+}
+
+p {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    letter-spacing: 0.4em;
+}
+
+img {
+    width: 100px;
+}
+
+footer > p {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+}
